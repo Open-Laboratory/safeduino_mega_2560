@@ -1,0 +1,25 @@
+ В файле показано соответствие между контактами на плате SafeDuino 2560
+ и контактами на графическом дисплее Winstar WG24064A-TRH-T2
+ 
+ pin) LCD	pin) XP69 (SafeDuino 2560)
+ 
+ 1) FG		-
+ 2) GND		1) GND
+ 3) +5V		2) +5V
+ 4) Vo		3) Vee
+ 5) ~WR		4) PC1
+ 6) ~RD		5) PC2
+ 7) ~CE		6) PC0
+ 8) C/~D	16) PC3 
+ 9) Vee		18) Vout
+ 10) ~Reset	15) PC4
+ 11) DB0	7) PA0
+ 12) DB1	8) PA1
+ 13) DB2	9) PA2
+ 14) DB3	10) PA3
+ 15) DB4	11) PA4
+ 16) DB5	12) PA5
+ 17) DB6	13) PA6
+ 18) DB7	14) PA7
+ 19) FS		17) PC5
+ 20)  -		   -
