@@ -14,7 +14,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "SafeDuino MEGA 2560"
-Date "14 may 2014"
+Date "6 apr 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -49,7 +49,7 @@ Wire Wire Line
 Wire Wire Line
 	17100 4250 15950 4250
 Wire Wire Line
-	9250 10800 9800 10800
+	9250 10800 9950 10800
 Connection ~ 9450 11450
 Wire Wire Line
 	9450 11200 9450 11700
@@ -865,13 +865,13 @@ Wire Wire Line
 Wire Wire Line
 	19600 14350 20050 14350
 Wire Wire Line
-	9800 10500 9250 10500
+	9950 10500 9250 10500
 Wire Wire Line
 	8450 10500 9000 10500
 Wire Wire Line
 	8450 10600 8550 10600
 Wire Wire Line
-	8800 10600 9800 10600
+	8800 10600 9950 10600
 Wire Wire Line
 	5950 11000 6650 11000
 Wire Wire Line
@@ -1002,8 +1002,6 @@ F 3 "" H 9000 10800 60  0001 C CNN
 	1    9000 10800
 	1    0    0    1   
 $EndComp
-Text Label 9800 10800 2    60   ~ 0
-PJ7
 $Comp
 L RESISTOR R16
 U 1 1 526FBA98
@@ -1086,9 +1084,9 @@ F 3 "" H 9000 10500 60  0001 C CNN
 	1    9000 10500
 	1    0    0    1   
 $EndComp
-Text Label 9800 10600 2    60   ~ 0
+Text Label 9950 10600 2    60   ~ 0
 TXD0
-Text Label 9800 10500 2    60   ~ 0
+Text Label 9950 10500 2    60   ~ 0
 RXD0
 $Comp
 L RESISTOR R10
@@ -2943,4 +2941,23 @@ Wire Wire Line
 	4500 5750 4500 7450
 Wire Wire Line
 	4500 7450 4700 7450
+Text Label 9950 10800 2    60   ~ 0
+MPU_VCC
+Wire Wire Line
+	5350 10800 6050 10800
+$Comp
+L RESISTOR R19
+U 1 1 5522B698
+P 6050 10800
+F 0 "R19" H 6050 10700 71  0000 C CNN
+F 1 "1к" H 6300 10700 71  0000 C CNN
+F 2 "" H 6050 10800 60  0001 C CNN
+F 3 "" H 6050 10800 60  0001 C CNN
+	1    6050 10800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6300 10800 6650 10800
+Text Label 5350 10800 0    60   ~ 0
+5V_USB
 $EndSCHEMATC

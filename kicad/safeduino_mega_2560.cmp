@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Wed 14 May 2014 15:16:00 MSK
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Mon 06 Apr 2015 19:28:18 MSK
 
 BeginCmp
 TimeStamp = /52569AA7;
@@ -319,6 +319,13 @@ BeginCmp
 TimeStamp = /52B44695;
 Reference = R18;
 ValeurCmp = 1M;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5522B698;
+Reference = R19;
+ValeurCmp = 1к;
 IdModule  = SMD0805;
 EndCmp
 
@@ -654,7 +661,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4CE408A9;
 Reference = XS3;
-ValeurCmp = PBS-10;
+ValeurCmp = PBS-8;
 IdModule  = PIN_ARRAY_8x1;
 EndCmp
 
@@ -668,7 +675,7 @@ EndCmp
 BeginCmp
 TimeStamp = /525802D5;
 Reference = XS5;
-ValeurCmp = PBS-10;
+ValeurCmp = PBS-8;
 IdModule  = PIN_ARRAY_8x1;
 EndCmp
 
