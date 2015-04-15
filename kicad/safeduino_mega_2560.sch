@@ -14,7 +14,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "SafeDuino MEGA 2560"
-Date "6 apr 2015"
+Date "15 apr 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -430,7 +430,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 8750 4700 8750
 Wire Wire Line
-	9450 11950 9450 12450
+	9450 11950 9450 12250
 Wire Wire Line
 	4300 7350 4700 7350
 Wire Wire Line
@@ -567,7 +567,7 @@ Wire Wire Line
 Wire Wire Line
 	13850 10900 13700 10900
 Wire Wire Line
-	13700 10900 13700 10700
+	13700 10700 13700 11000
 Wire Wire Line
 	21400 4900 20950 4900
 Wire Wire Line
@@ -662,7 +662,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 4000 5800 4000
 Wire Wire Line
-	14200 11350 14200 11100
+	14200 11100 14200 11600
 Wire Wire Line
 	20600 11450 20600 11550
 Wire Wire Line
@@ -887,7 +887,7 @@ Wire Wire Line
 	8550 11100 8550 11200
 Connection ~ 8550 11200
 Wire Wire Line
-	6200 10400 6650 10400
+	6150 10400 6650 10400
 Wire Wire Line
 	9850 11450 10450 11450
 Wire Wire Line
@@ -1026,7 +1026,7 @@ F 3 "" H 9850 11450 60  0001 C CNN
 $EndComp
 Text Label 10450 11450 2    60   ~ 0
 RESET
-Text Label 6200 10400 0    60   ~ 0
+Text Label 6150 10400 0    60   ~ 0
 RESET2
 Text Label 8650 11800 1    60   ~ 0
 GND
@@ -2122,8 +2122,8 @@ Text Label 4400 8250 0    60   ~ 0
 PE1
 Text Label 4250 8750 0    60   ~ 0
 RESET2
-Text Label 9450 12450 1    60   ~ 0
-GND_USB
+Text Label 9450 12250 1    60   ~ 0
+GND
 $Comp
 L RESISTOR R8
 U 1 1 5256A3CE
@@ -2471,7 +2471,7 @@ F 3 "" H 20400 11350 60  0001 C CNN
 	1    20400 11350
 	1    0    0    -1  
 $EndComp
-Text Label 14200 11350 1    60   ~ 0
+Text Label 14200 11600 1    60   ~ 0
 GND
 $Comp
 L SHOTTKY_DIODE VD2
@@ -2960,4 +2960,43 @@ Wire Wire Line
 	6300 10800 6650 10800
 Text Label 5350 10800 0    60   ~ 0
 5V_USB
+$Comp
+L RESISTOR R21
+U 1 1 552E6332
+P 13700 11250
+F 0 "R21" V 13900 11450 71  0000 C CNN
+F 1 "1М" V 13750 11450 71  0000 C CNN
+F 2 "" H 13700 11250 60  0001 C CNN
+F 3 "" H 13700 11250 60  0001 C CNN
+	1    13700 11250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 13700 10900
+Wire Wire Line
+	13700 11250 13700 11350
+Wire Wire Line
+	13700 11350 14200 11350
+Connection ~ 14200 11350
+$Comp
+L RESISTOR R20
+U 1 1 552E6CCB
+P 6550 10200
+F 0 "R20" V 6750 10400 71  0000 C CNN
+F 1 "1к" V 6600 10400 71  0000 C CNN
+F 2 "" H 6550 10200 60  0001 C CNN
+F 3 "" H 6550 10200 60  0001 C CNN
+	1    6550 10200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 10400 6550 10200
+Connection ~ 6550 10400
+Wire Wire Line
+	6550 9950 6550 9500
+Text Label 6550 9500 3    60   ~ 0
+GND_USB
+Text Notes 6750 12200 0    60   ~ 0
+R17 и R19 не устанавливаются на плату\n(используются только для отладки)
+Text Notes 13250 11800 0    60   ~ 0
+R21 необходим для подачи команды RESET на ATMEGA 2560 через\nконденсатор С2
 $EndSCHEMATC
