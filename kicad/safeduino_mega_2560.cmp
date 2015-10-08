@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 16 Apr 2015 16:01:00 MSK
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 08 Oct 2015 14:59:28 MSK
 
 BeginCmp
 TimeStamp = /52569AA7;
@@ -150,14 +150,14 @@ EndCmp
 BeginCmp
 TimeStamp = /52B44698;
 Reference = C22;
-ValeurCmp = 12.5п;
+ValeurCmp = 12п;
 IdModule  = SMD0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52B44697;
 Reference = C23;
-ValeurCmp = 12.5п;
+ValeurCmp = 12п;
 IdModule  = SMD0805;
 EndCmp
 
@@ -325,7 +325,7 @@ EndCmp
 BeginCmp
 TimeStamp = /552E6332;
 Reference = R19;
-ValeurCmp = 1М;
+ValeurCmp = 1M;
 IdModule  = SMD0805;
 EndCmp
 
@@ -428,15 +428,22 @@ IdModule  = SIL-3;
 EndCmp
 
 BeginCmp
-TimeStamp = /525FE852;
+TimeStamp = /525BB739;
 Reference = XP6;
-ValeurCmp = ~;
-IdModule  = 1_pin;
+ValeurCmp = IDC-20MS;
+IdModule  = IDC-20MS;
 EndCmp
 
 BeginCmp
 TimeStamp = /52BAD916;
 Reference = XP7;
+ValeurCmp = ~;
+IdModule  = 1_pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /525FE852;
+Reference = XP16;
 ValeurCmp = ~;
 IdModule  = 1_pin;
 EndCmp
@@ -638,13 +645,6 @@ IdModule  = 1_pin;
 EndCmp
 
 BeginCmp
-TimeStamp = /525BB739;
-Reference = XP69;
-ValeurCmp = IDC-20MS;
-IdModule  = IDC-20MS;
-EndCmp
-
-BeginCmp
 TimeStamp = /4E20541D;
 Reference = XS1;
 ValeurCmp = PBS-8;
@@ -668,7 +668,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4CE408AA;
 Reference = XS4;
-ValeurCmp = PBS-6;
+ValeurCmp = PBS-8;
 IdModule  = PIN_ARRAY_8x1;
 EndCmp
 
