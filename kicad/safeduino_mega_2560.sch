@@ -14,7 +14,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "SafeDuino MEGA 2560"
-Date "8 oct 2015"
+Date "10 mar 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -50,7 +50,7 @@ Wire Wire Line
 	17100 4250 15950 4250
 Connection ~ 9450 11450
 Wire Wire Line
-	9450 11200 9450 11700
+	9450 11100 9450 11700
 Wire Wire Line
 	9650 11450 9450 11450
 Wire Wire Line
@@ -256,7 +256,7 @@ Wire Wire Line
 	12150 9650 12150 10500
 Connection ~ 11900 10850
 Wire Wire Line
-	11900 11350 11900 10850
+	11900 11100 11900 10850
 Wire Wire Line
 	12050 10400 12150 10400
 Wire Wire Line
@@ -656,7 +656,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 4000 5800 4000
 Wire Wire Line
-	14200 11100 14200 11600
+	14200 11100 14200 11350
 Wire Wire Line
 	20600 11450 20600 11550
 Wire Wire Line
@@ -891,7 +891,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 10250 9450 10250
 Wire Wire Line
-	9450 10250 9450 10950
+	9450 10250 9450 10800
 Wire Wire Line
 	21400 4300 20950 4300
 Wire Wire Line
@@ -983,17 +983,6 @@ Text Label 20950 4300 0    60   ~ 0
 PH6
 Text Label 20950 4200 0    60   ~ 0
 PH5
-$Comp
-L RESISTOR R16
-U 1 1 526FBA98
-P 9450 11200
-F 0 "R16" V 9650 11000 71  0000 C CNN
-F 1 "0" V 9500 11050 71  0000 C CNN
-F 2 "" H 9450 11200 60  0001 C CNN
-F 3 "" H 9450 11200 60  0001 C CNN
-	1    9450 11200
-	0    -1   -1   0   
-$EndComp
 $Comp
 L CAPITORS C2
 U 1 1 526FBA5B
@@ -1830,7 +1819,7 @@ F 3 "" H 11750 10400 60  0001 C CNN
 	1    11750 10400
 	1    0    0    -1  
 $EndComp
-Text Label 11900 11350 1    60   ~ 0
+Text Label 11900 11100 1    60   ~ 0
 GND
 $Comp
 L CAPITORS C14
@@ -2452,7 +2441,7 @@ F 3 "" H 20400 11350 60  0001 C CNN
 	1    20400 11350
 	1    0    0    -1  
 $EndComp
-Text Label 14200 11600 1    60   ~ 0
+Text Label 14200 11350 1    60   ~ 0
 GND
 $Comp
 L SHOTTKY_DIODE VD2
@@ -2922,8 +2911,6 @@ Wire Wire Line
 	4500 5750 4500 7450
 Wire Wire Line
 	4500 7450 4700 7450
-Text Label 9950 10800 2    60   ~ 0
-MPU_VCC
 $Comp
 L RESISTOR R19
 U 1 1 552E6332
@@ -2966,4 +2953,15 @@ Wire Wire Line
 	10150 11950 10150 12250
 Text Label 10150 12250 1    60   ~ 0
 GND
+$Comp
+L DIODE VD6
+U 1 1 56E17300
+P 9450 10800
+F 0 "VD6" V 9500 11100 71  0000 C CNN
+F 1 "BAS216" V 9600 11100 71  0000 C CNN
+F 2 "" H 9450 10800 60  0001 C CNN
+F 3 "" H 9450 10800 60  0001 C CNN
+	1    9450 10800
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

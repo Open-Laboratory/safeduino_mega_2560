@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 08 Oct 2015 14:59:28 MSK
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 10 Mar 2016 16:10:18 MSK
 
 BeginCmp
 TimeStamp = /52569AA7;
@@ -302,13 +302,6 @@ IdModule  = Electron_3296W;
 EndCmp
 
 BeginCmp
-TimeStamp = /526FBA98;
-Reference = R16;
-ValeurCmp = 0;
-IdModule  = SMD0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /552E6CCB;
 Reference = R17;
 ValeurCmp = 1к;
@@ -367,6 +360,13 @@ EndCmp
 BeginCmp
 TimeStamp = /5256A146;
 Reference = VD5;
+ValeurCmp = BAS216;
+IdModule  = SOD110;
+EndCmp
+
+BeginCmp
+TimeStamp = /56E17300;
+Reference = VD6;
 ValeurCmp = BAS216;
 IdModule  = SOD110;
 EndCmp
