@@ -2764,30 +2764,10 @@ Text Notes 19000 4950 0    60   ~ 0
 SS
 Text Notes 19000 5050 0    60   ~ 0
 SCK
-Text Notes 19000 8150 0    60   ~ 0
-GND
 Text Notes 19000 6750 0    60   ~ 0
 PC2
 Text Notes 19000 6850 0    60   ~ 0
 PC3
-Text Notes 19000 7350 0    60   ~ 0
-PA7
-Text Notes 19000 7450 0    60   ~ 0
-PA6
-Text Notes 19000 7550 0    60   ~ 0
-PA5
-Text Notes 19000 7650 0    60   ~ 0
-PA4
-Text Notes 19000 7750 0    60   ~ 0
-PA3
-Text Notes 19000 7850 0    60   ~ 0
-PA2
-Text Notes 19000 7950 0    60   ~ 0
-PA1
-Text Notes 19000 8050 0    60   ~ 0
-PA0
-Text Notes 19000 8250 0    60   ~ 0
-GND
 Text Notes 19000 7250 0    60   ~ 0
 PC7
 Text Notes 19000 7150 0    60   ~ 0
@@ -2796,31 +2776,23 @@ Text Notes 19000 6950 0    60   ~ 0
 PC4
 Text Notes 19000 7050 0    60   ~ 0
 PC5
-Connection ~ 18500 8200
+Connection ~ 18500 7400
 Text Label 18050 4700 0    60   ~ 0
 MPU_VCC
 Wire Wire Line
-	18500 8100 18500 8200
+	18500 7300 18500 7400
 Wire Wire Line
-	18600 8100 18500 8100
-Text Label 18050 8200 0    60   ~ 0
+	18600 7300 18500 7300
+Text Label 18050 7400 0    60   ~ 0
 GND
 Wire Wire Line
 	18600 4900 18050 4900
-Text Label 18050 4900 0    60   ~ 0
-PB0
 Wire Wire Line
 	18600 5000 18050 5000
-Text Label 18050 5000 0    60   ~ 0
-PB1
 Wire Wire Line
 	18600 5100 18050 5100
-Text Label 18050 5100 0    60   ~ 0
-PB2
 Wire Wire Line
 	18600 5200 18050 5200
-Text Label 18050 5200 0    60   ~ 0
-PB3
 Wire Wire Line
 	18600 5300 18050 5300
 Text Label 18050 5300 0    60   ~ 0
@@ -2873,35 +2845,8 @@ Text Label 18050 7100 0    60   ~ 0
 PC6
 Text Label 18050 7200 0    60   ~ 0
 PC7
-Text Label 18050 7300 0    60   ~ 0
-PA7
-Text Label 18050 7400 0    60   ~ 0
-PA6
-Text Label 18050 7500 0    60   ~ 0
-PA5
-Text Label 18050 7600 0    60   ~ 0
-PA4
-Text Label 18050 7700 0    60   ~ 0
-PA3
-Text Label 18050 7800 0    60   ~ 0
-PA2
-Text Label 18050 7900 0    60   ~ 0
-PA1
-Text Label 18050 8000 0    60   ~ 0
-PA0
 Wire Wire Line
-	18600 8200 18500 8200
-$Comp
-L LFconnectors:connector_36pin_gost XS10
-U 1 1 64EB12AA
-P 18600 4700
-F 0 "XS10" H 18850 5050 71  0000 L CNN
-F 1 "2214SM-36G-75-PCP" H 18350 4950 71  0000 L CNN
-F 2 "IWconnectors:PIN_ARRAY_18x2" H 18950 4850 50  0001 C CNN
-F 3 "" H 18600 4700 60  0000 C CNN
-	1    18600 4700
-	1    0    0    -1  
-$EndComp
+	18600 7400 18500 7400
 $Comp
 L LFtransformator:INDUCTOR LL1
 U 1 1 6385F72E
@@ -2984,25 +2929,9 @@ Wire Wire Line
 Wire Wire Line
 	18050 7200 18600 7200
 Wire Wire Line
-	18050 7300 18600 7300
-Wire Wire Line
-	18050 7400 18600 7400
-Wire Wire Line
-	18050 7500 18600 7500
-Wire Wire Line
-	18050 7600 18600 7600
-Wire Wire Line
-	18050 7700 18600 7700
-Wire Wire Line
 	18050 6000 18600 6000
 Wire Wire Line
-	18050 7800 18600 7800
-Wire Wire Line
-	18050 7900 18600 7900
-Wire Wire Line
-	18050 8000 18600 8000
-Wire Wire Line
-	18050 8200 18500 8200
+	18050 7400 18500 7400
 Wire Wire Line
 	18050 6100 18600 6100
 Wire Wire Line
@@ -3033,4 +2962,35 @@ Text Notes 20400 9000 0    60   ~ 0
 GND
 Text Notes 20400 9100 0    60   ~ 0
 GND
+Text Label 10350 3000 0    50   ~ 0
+PB0
+Text Label 10350 3100 0    50   ~ 0
+PB1
+Text Label 10350 3200 0    50   ~ 0
+PB2
+Text Label 10350 3300 0    50   ~ 0
+PB3
+Text Label 18050 5100 0    60   ~ 0
+MOSI
+Text Label 18050 5200 0    60   ~ 0
+MISO
+Text Label 18050 5000 0    60   ~ 0
+SCK
+Text Label 18050 4900 0    60   ~ 0
+SS
+Text Notes 19000 7350 0    60   ~ 0
+GND
+Text Notes 19000 7450 0    60   ~ 0
+GND
+$Comp
+L LFconnectors:connector_28pin_gost XS10
+U 1 1 64EB12AA
+P 18600 4700
+F 0 "XS10" H 18850 5050 71  0000 L CNN
+F 1 "PBD-28" H 18750 4950 71  0000 L CNN
+F 2 "IWconnectors:PIN_ARRAY_14x2" H 18950 4850 50  0001 C CNN
+F 3 "" H 18600 4700 60  0000 C CNN
+	1    18600 4700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
