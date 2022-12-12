@@ -2677,26 +2677,22 @@ Wire Wire Line
 	4800 8100 4800 9150
 Wire Wire Line
 	4800 8100 5250 8100
-Text Label 19600 8350 0    60   ~ 0
-SS
-Text Label 19600 8750 0    60   ~ 0
-PD4
-Text Label 19600 8850 0    60   ~ 0
-PD5
-Text Label 19600 8950 0    60   ~ 0
-PD6
-Text Label 19600 8650 0    60   ~ 0
-PE7
 Text Label 19600 8550 0    60   ~ 0
-PE6
-Text Label 19600 8450 0    60   ~ 0
-PE2
-Text Label 19600 9150 0    60   ~ 0
-PH7
+PD4
+Text Label 19600 8650 0    60   ~ 0
+PD5
+Text Label 19600 8750 0    60   ~ 0
+PD6
+Text Label 19600 8950 0    60   ~ 0
+PE7
 Text Label 19600 9050 0    60   ~ 0
+PE6
+Text Label 19600 9150 0    60   ~ 0
+PE2
+Text Label 19600 8450 0    60   ~ 0
+PH7
+Text Label 19600 8850 0    60   ~ 0
 PH2
-Wire Wire Line
-	19600 8350 20000 8350
 Wire Wire Line
 	19600 8750 20000 8750
 Wire Wire Line
@@ -2897,24 +2893,7 @@ Text Notes 18750 11390 0    60   ~ 0
 LED
 Text Notes 18750 11500 0    60   ~ 0
 VCC
-$Comp
-L LFconnectors:connector_10pin_gost XS11
-U 1 1 643A5231
-P 20000 8350
-F 0 "XS11" H 20150 8700 71  0000 L CNN
-F 1 "PBS-10" H 20150 8600 71  0000 L CNN
-F 2 "IWconnectors:PIN_ARRAY_10x1" H 20350 8500 50  0001 C CNN
-F 3 "" H 20000 8350 60  0000 C CNN
-	1    20000 8350
-	1    0    0    -1  
-$EndComp
-Text Label 19600 9250 0    60   ~ 0
-GND
-Wire Wire Line
-	19600 9250 20000 9250
 Text Notes 20400 9200 0    60   ~ 0
-GND
-Text Notes 20400 9300 0    60   ~ 0
 GND
 Wire Wire Line
 	18050 5900 18600 5900
@@ -2946,8 +2925,6 @@ Wire Wire Line
 	18050 6600 18600 6600
 Wire Wire Line
 	18050 6700 18600 6700
-Text Notes 20400 8400 0    60   ~ 0
-GND
 Text Notes 20400 8500 0    60   ~ 0
 GND
 Text Notes 20400 8600 0    60   ~ 0
@@ -2991,6 +2968,17 @@ F 1 "PBD-28" H 18750 4950 71  0000 L CNN
 F 2 "IWconnectors:PIN_ARRAY_14x2" H 18950 4850 50  0001 C CNN
 F 3 "" H 18600 4700 60  0000 C CNN
 	1    18600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LFconnectors:connector_8pin_gost XS11
+U 1 1 643A5231
+P 20000 8450
+F 0 "XS11" H 20150 8800 71  0000 L CNN
+F 1 "PBS-8" H 20150 8700 71  0000 L CNN
+F 2 "IWconnectors:PIN_ARRAY_8x1" H 20350 8600 50  0001 C CNN
+F 3 "" H 20000 8450 60  0000 C CNN
+	1    20000 8450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
