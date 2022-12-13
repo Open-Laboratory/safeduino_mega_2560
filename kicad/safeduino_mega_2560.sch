@@ -1242,13 +1242,13 @@ $EndComp
 $Comp
 L LFcomponents:QUARTZ_RESONATOR Z2
 U 1 1 5256C28E
-P 10500 8350
-F 0 "Z2" H 10650 8700 71  0000 C CNN
-F 1 "16МГц" H 10650 8600 71  0000 C CNN
-F 2 "IWcomponents:HC-49SM" H 10500 8350 60  0001 C CNN
-F 3 "" H 10500 8350 60  0001 C CNN
-	1    10500 8350
-	1    0    0    -1  
+P 10800 8350
+F 0 "Z2" H 10950 8700 71  0000 C CNN
+F 1 "16МГц" H 10950 8600 71  0000 C CNN
+F 2 "IWcomponents:HC-49SM" H 10800 8350 60  0001 C CNN
+F 3 "" H 10800 8350 60  0001 C CNN
+	1    10800 8350
+	-1   0    0    -1  
 $EndComp
 Text Label 10650 9050 1    60   ~ 0
 GND
@@ -2939,14 +2939,6 @@ Text Notes 20400 9000 0    60   ~ 0
 GND
 Text Notes 20400 9100 0    60   ~ 0
 GND
-Text Label 10350 3000 0    50   ~ 0
-PB0
-Text Label 10350 3100 0    50   ~ 0
-PB1
-Text Label 10350 3200 0    50   ~ 0
-PB2
-Text Label 10350 3300 0    50   ~ 0
-PB3
 Text Label 18050 5100 0    60   ~ 0
 MOSI
 Text Label 18050 5200 0    60   ~ 0
