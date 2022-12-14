@@ -41,11 +41,7 @@ Connection ~ 7100 12900
 Wire Wire Line
 	7100 12800 7100 12900
 Wire Wire Line
-	6300 12200 5900 12200
-Wire Wire Line
 	5900 12300 7200 12300
-Wire Wire Line
-	7200 12200 6550 12200
 Wire Wire Line
 	20950 6400 21400 6400
 Wire Wire Line
@@ -905,17 +901,6 @@ Text Label 10500 12300 2    60   ~ 0
 TXD0
 Text Label 10500 12200 2    60   ~ 0
 RXD0
-$Comp
-L LFresistor:RESISTOR R10
-U 1 1 5260ED22
-P 6300 12200
-F 0 "R10" H 6250 12050 71  0000 C CNN
-F 1 "47" H 6550 12050 71  0000 C CNN
-F 2 "IWsmd_case:SMD0603" H 6300 12200 60  0001 C CNN
-F 3 "" H 6300 12200 60  0001 C CNN
-	1    6300 12200
-	1    0    0    1   
-$EndComp
 Text Label 5900 12300 0    60   ~ 0
 PE1
 Text Label 5900 12200 0    60   ~ 0
@@ -2973,4 +2958,6 @@ F 3 "" H 20000 8450 60  0000 C CNN
 	1    20000 8450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5900 12200 7200 12200
 $EndSCHEMATC
