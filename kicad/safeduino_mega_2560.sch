@@ -1833,137 +1833,137 @@ Wire Wire Line
 Wire Wire Line
 	19600 9050 20000 9050
 Wire Wire Line
-	18450 7400 18550 7400
-Connection ~ 18450 7400
+	19900 3800 20000 3800
+Connection ~ 19900 3800
 Wire Wire Line
-	18450 7300 18450 7400
+	19900 3700 19900 3800
 Wire Wire Line
-	18550 7300 18450 7300
+	20000 3700 19900 3700
 Wire Wire Line
-	18000 7400 18450 7400
-Text Notes 18950 6050 0    60   ~ 0
+	19450 3800 19900 3800
+Text Notes 20400 2450 0    60   ~ 0
 PG0
-Text Notes 18950 5850 0    60   ~ 0
+Text Notes 20400 2250 0    60   ~ 0
 PG2
-Text Notes 18950 7450 0    60   ~ 0
+Text Notes 20400 3850 0    60   ~ 0
 GND
-Text Notes 18950 7350 0    60   ~ 0
+Text Notes 20400 3750 0    60   ~ 0
 GND
-Text Notes 18950 6850 0    60   ~ 0
+Text Notes 20400 3250 0    60   ~ 0
 PL0
-Text Notes 18950 6750 0    60   ~ 0
+Text Notes 20400 3150 0    60   ~ 0
 PL1
-Text Notes 18950 6650 0    60   ~ 0
+Text Notes 20400 3050 0    60   ~ 0
 PL2
-Text Notes 18950 6550 0    60   ~ 0
+Text Notes 20400 2950 0    60   ~ 0
 PL3
-Text Notes 18950 6450 0    60   ~ 0
+Text Notes 20400 2850 0    60   ~ 0
 PL4
-Text Notes 18950 6350 0    60   ~ 0
+Text Notes 20400 2750 0    60   ~ 0
 PL5
-Text Notes 18950 6250 0    60   ~ 0
+Text Notes 20400 2650 0    60   ~ 0
 PL6
-Text Notes 18950 6150 0    60   ~ 0
+Text Notes 20400 2550 0    60   ~ 0
 PL7
-Text Notes 18950 5950 0    60   ~ 0
+Text Notes 20400 2350 0    60   ~ 0
 PG1
-Text Notes 18950 5750 0    60   ~ 0
+Text Notes 20400 2150 0    60   ~ 0
 PD7
-Text Notes 18950 5650 0    60   ~ 0
+Text Notes 20400 2050 0    60   ~ 0
 PC0
-Text Notes 18950 5550 0    60   ~ 0
+Text Notes 20400 1950 0    60   ~ 0
 PC1
-Text Notes 18950 6950 0    60   ~ 0
+Text Notes 20400 3350 0    60   ~ 0
 MISO
-Text Notes 18950 7050 0    60   ~ 0
+Text Notes 20400 3450 0    60   ~ 0
 MOSI
-Text Notes 18950 7250 0    60   ~ 0
+Text Notes 20400 3650 0    60   ~ 0
 SS
-Text Notes 18950 7150 0    60   ~ 0
+Text Notes 20400 3550 0    60   ~ 0
 SCK
-Text Notes 18950 5450 0    60   ~ 0
+Text Notes 20400 1850 0    60   ~ 0
 PC2
-Text Notes 18950 5350 0    60   ~ 0
+Text Notes 20400 1750 0    60   ~ 0
 PC3
-Text Notes 18950 4950 0    60   ~ 0
+Text Notes 20400 1350 0    60   ~ 0
 PC7
-Text Notes 18950 5050 0    60   ~ 0
+Text Notes 20400 1450 0    60   ~ 0
 PC6
-Text Notes 18950 5250 0    60   ~ 0
+Text Notes 20400 1650 0    60   ~ 0
 PC4
-Text Notes 18950 5150 0    60   ~ 0
+Text Notes 20400 1550 0    60   ~ 0
 PC5
-Connection ~ 18450 4700
-Text Label 18000 4700 0    60   ~ 0
+Connection ~ 19900 1100
+Text Label 19450 1100 0    60   ~ 0
 MPU_VCC
 Wire Wire Line
-	18450 4800 18450 4700
+	19900 1200 19900 1100
 Wire Wire Line
-	18550 4800 18450 4800
-Text Label 18000 7400 0    60   ~ 0
+	20000 1200 19900 1200
+Text Label 19450 3800 0    60   ~ 0
 GND
 Wire Wire Line
-	18550 7200 18000 7200
+	20000 3600 19450 3600
 Wire Wire Line
-	18550 7100 18000 7100
+	20000 3500 19450 3500
 Wire Wire Line
-	18550 7000 18000 7000
+	20000 3400 19450 3400
 Wire Wire Line
-	18550 6900 18000 6900
+	20000 3300 19450 3300
 Wire Wire Line
-	18550 6800 18000 6800
-Text Label 18000 6800 0    60   ~ 0
+	20000 3200 19450 3200
+Text Label 19450 3200 0    60   ~ 0
 PL0
 Wire Wire Line
-	18550 6700 18000 6700
-Text Label 18000 6700 0    60   ~ 0
+	20000 3100 19450 3100
+Text Label 19450 3100 0    60   ~ 0
 PL1
 Wire Wire Line
-	18550 6600 18000 6600
-Text Label 18000 6600 0    60   ~ 0
+	20000 3000 19450 3000
+Text Label 19450 3000 0    60   ~ 0
 PL2
 Wire Wire Line
-	18550 6500 18000 6500
-Text Label 18000 6500 0    60   ~ 0
+	20000 2900 19450 2900
+Text Label 19450 2900 0    60   ~ 0
 PL3
 Wire Wire Line
-	18550 6400 18000 6400
-Text Label 18000 6400 0    60   ~ 0
+	20000 2800 19450 2800
+Text Label 19450 2800 0    60   ~ 0
 PL4
 Wire Wire Line
-	18550 6300 18000 6300
-Text Label 18000 6300 0    60   ~ 0
+	20000 2700 19450 2700
+Text Label 19450 2700 0    60   ~ 0
 PL5
-Text Label 18000 6200 0    60   ~ 0
+Text Label 19450 2600 0    60   ~ 0
 PL6
-Text Label 18000 6100 0    60   ~ 0
+Text Label 19450 2500 0    60   ~ 0
 PL7
-Text Label 18000 6000 0    60   ~ 0
+Text Label 19450 2400 0    60   ~ 0
 PG0
-Text Label 18000 5900 0    60   ~ 0
+Text Label 19450 2300 0    60   ~ 0
 PG1
-Text Label 18000 5800 0    60   ~ 0
+Text Label 19450 2200 0    60   ~ 0
 PG2
-Text Label 18000 5700 0    60   ~ 0
+Text Label 19450 2100 0    60   ~ 0
 PD7
-Text Label 18000 5600 0    60   ~ 0
+Text Label 19450 2000 0    60   ~ 0
 PC0
-Text Label 18000 5500 0    60   ~ 0
+Text Label 19450 1900 0    60   ~ 0
 PC1
-Text Label 18000 5400 0    60   ~ 0
+Text Label 19450 1800 0    60   ~ 0
 PC2
-Text Label 18000 5300 0    60   ~ 0
+Text Label 19450 1700 0    60   ~ 0
 PC3
-Text Label 18000 5200 0    60   ~ 0
+Text Label 19450 1600 0    60   ~ 0
 PC4
-Text Label 18000 5100 0    60   ~ 0
+Text Label 19450 1500 0    60   ~ 0
 PC5
-Text Label 18000 5000 0    60   ~ 0
+Text Label 19450 1400 0    60   ~ 0
 PC6
-Text Label 18000 4900 0    60   ~ 0
+Text Label 19450 1300 0    60   ~ 0
 PC7
 Wire Wire Line
-	18550 4700 18450 4700
+	20000 1100 19900 1100
 $Comp
 L LFtransformator:INDUCTOR LL1
 U 1 1 6385F72E
@@ -2017,35 +2017,35 @@ VCC
 Text Notes 20400 9200 0    60   ~ 0
 PE2
 Wire Wire Line
-	18000 6200 18550 6200
+	19450 2600 20000 2600
 Wire Wire Line
-	18000 5300 18550 5300
+	19450 1700 20000 1700
 Wire Wire Line
-	18000 5200 18550 5200
+	19450 1600 20000 1600
 Wire Wire Line
-	18000 5100 18550 5100
+	19450 1500 20000 1500
 Wire Wire Line
-	18000 5000 18550 5000
+	19450 1400 20000 1400
 Wire Wire Line
-	18000 4900 18550 4900
+	19450 1300 20000 1300
 Wire Wire Line
-	18000 6100 18550 6100
+	19450 2500 20000 2500
 Wire Wire Line
-	18000 4700 18450 4700
+	19450 1100 19900 1100
 Wire Wire Line
-	18000 6000 18550 6000
+	19450 2400 20000 2400
 Wire Wire Line
-	18000 5900 18550 5900
+	19450 2300 20000 2300
 Wire Wire Line
-	18000 5800 18550 5800
+	19450 2200 20000 2200
 Wire Wire Line
-	18000 5700 18550 5700
+	19450 2100 20000 2100
 Wire Wire Line
-	18000 5600 18550 5600
+	19450 2000 20000 2000
 Wire Wire Line
-	18000 5500 18550 5500
+	19450 1900 20000 1900
 Wire Wire Line
-	18000 5400 18550 5400
+	19450 1800 20000 1800
 Text Notes 20400 8500 0    60   ~ 0
 PH7
 Text Notes 20400 8600 0    60   ~ 0
@@ -2060,27 +2060,27 @@ Text Notes 20400 9000 0    60   ~ 0
 PH7
 Text Notes 20400 9100 0    60   ~ 0
 PE6
-Text Label 18000 7000 0    60   ~ 0
+Text Label 19450 3400 0    60   ~ 0
 MOSI
-Text Label 18000 6900 0    60   ~ 0
+Text Label 19450 3300 0    60   ~ 0
 MISO
-Text Label 18000 7100 0    60   ~ 0
+Text Label 19450 3500 0    60   ~ 0
 SCK
-Text Label 18000 7200 0    60   ~ 0
+Text Label 19450 3600 0    60   ~ 0
 SS
-Text Notes 18950 4850 0    60   ~ 0
+Text Notes 20400 1250 0    60   ~ 0
 +5V
-Text Notes 18950 4750 0    60   ~ 0
+Text Notes 20400 1150 0    60   ~ 0
 +5V
 $Comp
 L LFconnectors:connector_28pin_gost XS10
 U 1 1 64EB12AA
-P 18550 4700
-F 0 "XS10" H 18800 5050 71  0000 L CNN
-F 1 "PBD-28" H 18700 4950 71  0000 L CNN
-F 2 "IWconnectors:PIN_ARRAY_14x2" H 18900 4850 50  0001 C CNN
-F 3 "" H 18550 4700 60  0000 C CNN
-	1    18550 4700
+P 20000 1100
+F 0 "XS10" H 20250 1450 71  0000 L CNN
+F 1 "PBD-28" H 20150 1350 71  0000 L CNN
+F 2 "IWconnectors:PIN_ARRAY_14x2" H 20350 1250 50  0001 C CNN
+F 3 "" H 20000 1100 60  0000 C CNN
+	1    20000 1100
 	1    0    0    -1  
 $EndComp
 $Comp
