@@ -93,15 +93,9 @@ Wire Wire Line
 Wire Wire Line
 	21000 12600 21450 12600
 Wire Wire Line
-	20550 12200 21450 12200
-Wire Wire Line
-	19800 12300 20300 12300
-Wire Wire Line
 	21000 12100 21450 12100
 Wire Wire Line
 	21000 12000 21450 12000
-Wire Wire Line
-	20550 12300 20850 12300
 Wire Wire Line
 	21000 13800 21450 13800
 Wire Wire Line
@@ -327,7 +321,7 @@ Connection ~ 5900 4500
 Wire Wire Line
 	21000 9750 21450 9750
 Wire Wire Line
-	19750 9950 20200 9950
+	19300 9950 19750 9950
 Wire Wire Line
 	20450 9850 21450 9850
 Wire Wire Line
@@ -577,11 +571,11 @@ Text Label 21000 10750 0    60   ~ 0
 PJ3
 Text Label 21000 10650 0    60   ~ 0
 PJ2
-Text Label 19800 12300 0    60   ~ 0
+Text Label 18750 12650 0    60   ~ 0
 MPU_VCC
 Text Label 21000 13700 0    60   ~ 0
 V_OUT
-Text Label 20850 12300 2    60   ~ 0
+Text Label 20650 12650 2    60   ~ 0
 V_OUT
 Text Label 21400 14300 2    60   ~ 0
 GND
@@ -644,11 +638,11 @@ E
 Text Notes 21900 12050 0    60   ~ 0
 GND
 Text Notes 21900 12150 0    60   ~ 0
-VCC
+Vdd
 Text Notes 21900 12250 0    60   ~ 0
-VEE
+Vo
 Text Notes 21900 12350 0    60   ~ 0
-RS
+D/I
 Text Notes 21900 12450 0    60   ~ 0
 R/W
 Text Notes 21900 12650 0    60   ~ 0
@@ -678,12 +672,12 @@ MPU_VCC
 $Comp
 L LFresistor:RESISTOR_TRIMMING R15
 U 1 1 525BB8BD
-P 20300 12300
-F 0 "R15" H 20450 12600 71  0000 C CNN
-F 1 "20к" H 20450 12500 71  0000 C CNN
-F 2 "IWcomponents:Electron_3296W" H 20300 12300 60  0001 C CNN
-F 3 "" H 20300 12300 60  0001 C CNN
-	1    20300 12300
+P 19750 12650
+F 0 "R15" H 19900 12950 71  0000 C CNN
+F 1 "20к" H 19900 12850 71  0000 C CNN
+F 2 "IWcomponents:Electron_3296W" H 19750 12650 60  0001 C CNN
+F 3 "" H 19750 12650 60  0001 C CNN
+	1    19750 12650
 	1    0    0    -1  
 $EndComp
 Text Label 21000 12200 0    60   ~ 0
@@ -1196,7 +1190,7 @@ Text Label 21400 11550 2    60   ~ 0
 GND
 Text Label 20700 9950 2    60   ~ 0
 GND
-Text Label 19750 9950 0    60   ~ 0
+Text Label 19300 9950 0    60   ~ 0
 MPU_VCC
 $Comp
 L LFresistor:RESISTOR_TRIMMING R1
@@ -2906,4 +2900,142 @@ Wire Wire Line
 	4050 11450 4150 11450
 Wire Wire Line
 	9200 10150 10550 10150
+$Comp
+L LFresistor:RESISTOR R7
+U 1 1 63B31167
+P 19300 12650
+F 0 "R7" H 19300 12750 71  0000 C CNN
+F 1 "0" H 19550 12750 71  0000 C CNN
+F 2 "IWsmd_case:SMD0603" H 19300 12650 60  0001 C CNN
+F 3 "" H 19300 12650 60  0001 C CNN
+	1    19300 12650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18750 12650 19300 12650
+Wire Wire Line
+	19550 12650 19650 12650
+$Comp
+L LFresistor:RESISTOR R13
+U 1 1 63E41378
+P 19750 12200
+F 0 "R13" H 19750 12350 71  0000 C CNN
+F 1 "0" H 20000 12350 71  0000 C CNN
+F 2 "IWsmd_case:SMD0603" H 19750 12200 60  0001 C CNN
+F 3 "" H 19750 12200 60  0001 C CNN
+	1    19750 12200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20000 12550 20100 12550
+Wire Wire Line
+	20100 12550 20100 12200
+$Comp
+L LFresistor:RESISTOR R10
+U 1 1 6428DAB0
+P 19300 13000
+F 0 "R10" H 19300 13100 71  0000 C CNN
+F 1 "0" H 19550 13100 71  0000 C CNN
+F 2 "IWsmd_case:SMD0603" H 19300 13000 60  0001 C CNN
+F 3 "" H 19300 13000 60  0001 C CNN
+	1    19300 13000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19650 12650 19650 13000
+Wire Wire Line
+	19650 13000 19550 13000
+Connection ~ 19650 12650
+Wire Wire Line
+	19650 12650 19750 12650
+Wire Wire Line
+	18750 13000 19300 13000
+Text Label 18750 13000 0    60   ~ 0
+GND
+Wire Wire Line
+	20000 12200 20100 12200
+Connection ~ 20100 12200
+Wire Wire Line
+	19750 12200 19650 12200
+Wire Wire Line
+	19650 12200 19650 12650
+Wire Wire Line
+	20100 12200 21450 12200
+Wire Wire Line
+	20000 12650 20650 12650
+Text Notes 16350 12400 0    50   ~ 0
+Установка резисторов для  регулировки контрастности \n     у различных моделей графических дисплеев\n          подключаемых к разъёму XP6
+Text Notes 16350 12700 0    50   ~ 0
+WG12864A
+Text Notes 16350 12850 0    50   ~ 0
+MT-12864A
+Text Notes 16200 13000 0    50   ~ 0
+MT-12864A-...-T
+Wire Notes Line
+	16150 12750 18400 12750
+Wire Notes Line
+	16150 12900 18400 12900
+Wire Notes Line
+	17300 12450 17300 13050
+Wire Notes Line
+	17650 12450 17650 13050
+Wire Notes Line
+	18000 12450 18000 13050
+Wire Notes Line
+	16150 12600 18400 12600
+Text Notes 17050 12550 0    50   ~ 0
+R7
+Text Notes 17400 12550 0    50   ~ 0
+R10
+Text Notes 17750 12550 0    50   ~ 0
+R13
+Text Notes 17050 12700 0    50   ~ 0
+есть
+Text Notes 17400 12700 0    50   ~ 0
+нет
+Text Notes 17750 12700 0    50   ~ 0
+нет
+Text Notes 17750 12850 0    50   ~ 0
+есть
+Text Notes 17400 12850 0    50   ~ 0
+нет
+Text Notes 17050 12850 0    50   ~ 0
+нет
+Text Notes 17050 13000 0    50   ~ 0
+нет
+Text Notes 17750 13000 0    50   ~ 0
+нет
+Text Notes 17400 13000 0    50   ~ 0
+есть
+Wire Notes Line
+	16150 12600 16150 13050
+Wire Notes Line
+	16150 13050 18400 13050
+Wire Notes Line
+	16950 12450 18400 12450
+Wire Notes Line
+	16950 12450 16950 13050
+Text Notes 18100 12550 0    50   ~ 0
+R15
+Text Notes 18050 12700 0    50   ~ 0
+20 кОм
+Text Notes 18050 12850 0    50   ~ 0
+10 кОм
+Text Notes 18050 13000 0    50   ~ 0
+100 кОм
+Wire Notes Line
+	18400 12450 18400 13050
+$Comp
+L LFresistor:RESISTOR R16
+U 1 1 65C8A68B
+P 19750 9950
+F 0 "R16" H 19750 10100 71  0000 C CNN
+F 1 "0" H 20000 10100 71  0000 C CNN
+F 2 "IWsmd_case:SMD0603" H 19750 9950 60  0001 C CNN
+F 3 "" H 19750 9950 60  0001 C CNN
+	1    19750 9950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20200 9950 20000 9950
 $EndSCHEMATC
