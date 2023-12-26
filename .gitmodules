@@ -1,3 +1,0 @@
-[submodule "kicad/components"]
-	path = kicad/components
-	url = https://github.com/Open-Laboratory/kicad-components.git
